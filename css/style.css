@@ -328,45 +328,107 @@ h1 {
     gap: 2.5rem;
 }
 
-.sponsor_container img{
+.sponsor_container img {
     max-width: 100%;
 }
 
 .company_logo1 {
-        display: flex;
+    display: flex;
     align-items: center;
     margin: auto;
-    width: 17rem; 
+    width: 17rem;
 }
+
 .company_logo2 {
-        display: flex;
+    display: flex;
     align-items: center;
     margin: auto;
-    width: 16.7rem; 
+    width: 16.7rem;
     height: 4.8rem;
 }
+
 .company_logo3 {
-        display: flex;
+    display: flex;
     align-items: center;
     margin: auto;
-    width: 19.8rem; 
+    width: 19.8rem;
 }
+
 .company_logo4 {
-        display: flex;
+    display: flex;
     align-items: center;
     margin: auto;
-    width: 16.6rem; 
+    width: 16.6rem;
     height: 4.8rem;
 }
+
 .company_logo5 {
-        display: flex;
+    display: flex;
     align-items: center;
     margin: auto;
-    width: 19.7rem; 
+    width: 19.7rem;
 }
+
 .company_logo6 {
-        display: flex;
+    display: flex;
     align-items: center;
     margin: auto;
-    width: 18.2rem; 
+    width: 18.2rem;
 }
+
+/* <!-- -------sponsor ends------ --> */
+
+/* <!-- -------feature section ends------ --> */
+.feature_section {
+    background-color: #F7F9FC;
+    padding: 0 8rem;
+}
+
+.feature_container {
+    padding: 6.4rem 3.2rem;
+    display: flex;
+    gap: 3.2rem;
+}
+
+.feature_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature_box .icon {
+    display: flex;
+    width: 4.8rem;
+    height: 4.8rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.8rem;
+    border: 8px solid var(--Dodger-Blue-50, #F0F8FE);
+    background: var(--Dodger-Blue-100, #DEEDFB);
+    margin-bottom: 2rem;
+}
+
+.feature_text {
+    color: var(--Gray-modern-900, #121926);
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.feature_subtext {
+    margin-top: 8px;
+    color: var(--Gray-modern-600, #4B5565);
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+/* <!-- -------feature section ends------ --> */

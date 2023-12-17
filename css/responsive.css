@@ -34,36 +34,53 @@
 		align-items: center;
 		gap: 5.6rem;
 	}
+
 	h1 {
 		font-size: 4.8rem;
 		text-align: center;
-	}	
-	.sponsor{
+	}
+
+	.sponsor {
 		padding: 3.2rem 1.6rem;
 	}
+
 	.sponsor_container {
-		grid-template-columns: repeat(2,1fr) !important;
+		grid-template-columns: repeat(2, 1fr) !important;
 	}
+
 	.company_logo1 {
 		width: 127.5px;
 	}
+
 	.company_logo2 {
 		width: 125.25px;
 		height: 36px;
 	}
+
 	.company_logo3 {
 		width: 148.5px;
 	}
+
 	.company_logo4 {
 		width: 124.5px;
 	}
+
 	.company_logo5 {
 		width: 147.75px;
 	}
+
 	.company_logo6 {
 		width: 136.5px;
 	}
 
+	.feature_section {
+		padding: 0 ;
+	}
+
+	.feature_container {
+		flex-direction: column;
+		padding: 6.4rem 1.6rem;
+	}
 }
 
 
