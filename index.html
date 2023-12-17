@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>TDevBack</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- -------nav starts------  -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Logo.svg">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+
+                    <div class="dropdown">
+                        <li class="dropbtn">Our expertise
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" stroke="#475467" stroke-width="1.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li class="dropbtn">Project
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" stroke="#475467" stroke-width="1.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+
+                </ul>
+                <ul>
+                    <button class="nav_btn">Sign up</button>
+                </ul>
+            </div>
+            <!-- hamburger-menu -->
+            <button class="hamburger-menu" type="button" id="hamburger-menu">
+                <label>
+                    <input class="toggle_btn" type="checkbox" id="toggle_btn" onclick="show_silde()">
+                    <div class="toggle">
+                        <span class="top_line common"></span>
+                        <span class="mid_line common"></span>
+                        <span class="end_line common"></span>
+                    </div>
+                </label>
+            </button>
+        </nav>
+
+            <div class="slide" id="slide">
+                <ul class="slide_nav">
+                    <li>Home</li>
+                    <li>About</li>
+
+                    <div>
+                        <div class="accordion">
+                            <li class="dropbtn">Our expertise
+                                <svg id="add" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg id="sub" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                </svg>
+                            </li>
+                        </div>
+                        <div class="panel">
+                            <li>Link 1</li>
+                            <li>Link 2</li>
+                            <li>Link 3</li>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="accordion">
+                            <li class="dropbtn">Project
+                                <svg id="add" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                </svg>
+                                <svg id="sub" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                </svg>
+                            </li>
+                        </div>
+                        <div class="panel">
+                            <li>Link 2</li>
+                            <li>Link 3</li>
+                            <li>Link 3</li>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <button class="nav_btn">Sign up</button>
+
+
+                </ul>
+            </div>
+    </header>
+    <!-- -------nav ends------  -->
+
+
+    <!-- -------hero starts------  -->
+    <section class="hero_section">
+        <div>
+            <h1>Empower Your Website with Our Back End Development Expertise!</h1>
+            <button class="hero_btn">Get in Touch
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#FEF8F0" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- -------hero ends------  -->
+
+
+
+
+
+
+
+    <!-- all js here -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
