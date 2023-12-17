@@ -2,7 +2,7 @@
 
 @media (min-width: 1395px) {
 	.hero_section>div {
-		padding: 15.3rem 57.9rem 15.3rem 6.5rem;
+		/* padding: 15.3rem 57.9rem 15.3rem 6.5rem; */
 	}
 }
 
@@ -28,11 +28,7 @@
 	nav {
 		padding: 0px 12px 0px 16px;
 	}
-	.hero_section{
-		position: absolute;
-		margin-top: 72px;
-		top: 0;
-	}
+
 	.hero_section>div {
 		padding: 23rem .1rem 11.4rem 0px;
 		align-items: center;
@@ -42,6 +38,31 @@
 		font-size: 4.8rem;
 		text-align: center;
 	}	
+	.sponsor{
+		padding: 3.2rem 1.6rem;
+	}
+	.sponsor_container {
+		grid-template-columns: repeat(2,1fr) !important;
+	}
+	.company_logo1 {
+		width: 127.5px;
+	}
+	.company_logo2 {
+		width: 125.25px;
+		height: 36px;
+	}
+	.company_logo3 {
+		width: 148.5px;
+	}
+	.company_logo4 {
+		width: 124.5px;
+	}
+	.company_logo5 {
+		width: 147.75px;
+	}
+	.company_logo6 {
+		width: 136.5px;
+	}
 
 }
 

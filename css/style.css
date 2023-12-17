@@ -2,6 +2,7 @@
     --Blue-Default: #4595E6;
     --GREEN-Dark: #267880;
     --Dodger-Blue-900: #274981;
+    --Gray-modern-500: #697586;
     --Gray-modern-600: #4B5565;
     --Gray-modern-900: #121926;
     --Venice-Blue-900: #213C59;
@@ -191,9 +192,8 @@ ul li {
 }
 
 .slide {
-    position: relative;
+    position: absolute;
     z-index: 100;
-    height: 100% !important;
     width: 100vw !important;
     transition: 0.6s ease;
     display: none;
@@ -299,4 +299,74 @@ h1 {
     font-weight: 700;
     line-height: 2.8rem;
     /* 155.556% */
+}
+
+/* <!-- -------hero ends------  --> */
+
+/* <!-- -------sponsor starts------ --> */
+.sponsor {
+    padding: 6.4rem 3.2rem;
+    z-index: 900;
+}
+
+.sponsor p {
+    color: var(--Gray-modern-500);
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+    /* 150% */
+}
+
+.sponsor_container {
+    padding: 3.2rem 3.2rem 0 3.2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.sponsor_container img{
+    max-width: 100%;
+}
+
+.company_logo1 {
+        display: flex;
+    align-items: center;
+    margin: auto;
+    width: 17rem; 
+}
+.company_logo2 {
+        display: flex;
+    align-items: center;
+    margin: auto;
+    width: 16.7rem; 
+    height: 4.8rem;
+}
+.company_logo3 {
+        display: flex;
+    align-items: center;
+    margin: auto;
+    width: 19.8rem; 
+}
+.company_logo4 {
+        display: flex;
+    align-items: center;
+    margin: auto;
+    width: 16.6rem; 
+    height: 4.8rem;
+}
+.company_logo5 {
+        display: flex;
+    align-items: center;
+    margin: auto;
+    width: 19.7rem; 
+}
+.company_logo6 {
+        display: flex;
+    align-items: center;
+    margin: auto;
+    width: 18.2rem; 
 }
