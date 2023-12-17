@@ -1,8 +1,8 @@
 /*--- Extra large devices (large desktops, 1400px and up) -----*/
 
-@media (min-width: 1395px) {
-	.hero_section>div {
-		/* padding: 15.3rem 57.9rem 15.3rem 6.5rem; */
+@media (max-width: 1440px) {
+	.project_section_header {
+		margin: 0 18.6rem 6.4rem 18.6rem;
 	}
 }
 
@@ -81,6 +81,40 @@
 		flex-direction: column;
 		padding: 6.4rem 1.6rem;
 	}
+
+
+	.project_section {
+		padding: 9.6rem .8rem;
+	}
+	
+	.project_section_header {
+		margin: 0 ;
+	}
+	h2{
+		font-size: 3.2rem;
+	}
+	p{
+		font-size: 1.8rem;
+	}
+	h3,p{
+		text-align: center;
+	}
+
+.project_box {
+	flex-direction: column;
+	padding: 4rem 3.5rem;
+}
+
+	.project_box img {
+		min-width: 100%;
+	}
+	video{
+		width: 90vw;
+		height: 192px;
+	}
+.project_box_right_side{
+display: flex;flex-direction: column;
+}
 }
 
 

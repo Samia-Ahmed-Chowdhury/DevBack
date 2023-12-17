@@ -32,3 +32,31 @@ var sub = this.lastElementChild.lastElementChild;
 
 });
 }
+
+
+ // ------------- owlCarousel slider --------------
+
+ // ------------- slider --------------
+
+ $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 30,
+    items: 5,
+    // autoplay: true,
+    autoplayTimeout: 1500,
+    autoplayHoverPause: true,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+    }
+
+})(jQuery);

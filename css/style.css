@@ -35,6 +35,10 @@ li {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* -------common style ----- */
 
 /* <!-- -------nav starts------  --> */
@@ -328,9 +332,7 @@ h1 {
     gap: 2.5rem;
 }
 
-.sponsor_container img {
-    max-width: 100%;
-}
+
 
 .company_logo1 {
     display: flex;
@@ -432,3 +434,90 @@ h1 {
 
 
 /* <!-- -------feature section ends------ --> */
+
+/* <!-- -------ex project section starts------ --> */
+
+.project_section {
+    padding: 9.6rem 8rem;
+}
+
+.project_section_header {
+    margin: 0 25.6rem 6.4rem 25.6rem;
+}
+
+h2 {
+    color: var(--Gray-modern-900, #121926);
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 91.667% */
+    letter-spacing: -0.96px;
+}
+
+p {
+    margin-top: 2rem;
+    color: var(--Gray-modern-600, #4B5565);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.project_box {
+    border-radius: 24px;
+    background: #E1F3F5;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.project_box img {
+    border-radius: 10px;
+    min-width: 60%;
+    border: 4px solid var(--Venice-Blue-900, #213C59);
+}
+
+h3 {
+    color: var(--Venice-Blue-900, #213C59);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    /* 126.667% */
+}
+
+h6,
+.project_box_right_side li {
+    margin: 1.6rem 0;
+    color: var(--Gray-modern-600, #4B5565);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.project_box_right_side li {
+    gap: 12px;
+}
+
+.project_box .hero_btn {
+    margin-top: 3.2rem;
+    background-color: var(--GREEN-Dark);
+    border: 1px solid var(--GREEN-Dark);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+video{
+    width: 768px;
+    height: 512px;
+    flex-shrink: 0;
+}
+.p_img3{
+    margin: 0 6.4rem;
+}
+/* <!-- -------ex project section ends------ --> */
