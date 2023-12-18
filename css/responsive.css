@@ -5,6 +5,11 @@
 		margin: 0 18.6rem 6.4rem 18.6rem;
 	}
 }
+@media (max-width: 1250px) {
+	.owl-dot{
+		width: 20rem;
+	}
+}
 
 
 /* ------ Medium devices (tablets, 991px and down) -----*/
@@ -139,6 +144,26 @@
 		flex-direction: column-reverse;
 	}
 
+
+
+.owl-dot{
+	display: none;
+	width: 100% !important;
+}
+	.owl-dot.active{
+		display: block;
+		width: 100% !important;
+	}
+
+	.my_owl-nav{
+		display: block !important;
+	}
+	.my_owl-prev{left: 2%;}
+	.my_owl-next{right: 2%;}
+
+	.owl_content_box:not(:first-child) {
+        /* display: none !important; */
+    }
 }
 
 /*----- sm devices (tablets, 767px and down) -----*/
